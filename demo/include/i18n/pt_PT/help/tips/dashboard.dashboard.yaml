@@ -1,0 +1,31 @@
+---
+ticket_activity:
+  title: Gráfico de Actividade (incidentes)
+  content: 'Seleccione um intervalo de datas de modo a que tanto o gráfico como a tabela (cf. <span class="doc-desc-title"> Estatísticas</span>) indicados em baixo, reflictam   a informação desse período. O gráfico abaixo sempre reflectirá uma visão ampla dos dados  do sistema  (ou seja, população). No entanto, você pode navegar através da tabela de <span class="doc-desc-title"> Estatísticas</span> abaixo e focar um tema mais restrito  de interesse (por exemplo, Departamento, Tópicos ou Pessoal). Além disso, você pode exportar  todos os dados atualmente exibidos na tabela <span class="doc-desc-title"> Estatísticas</span>.'
+report_timeframe:
+  title: Intervalo de tempo do relatório
+  content: 'Escolha através do selector de data, a data de início do período a mostrar. Em seguida, escolha o periodo de tempo a partir dessa data para definir a data final na sua amostra.'
+statistics:
+  title: Estatísticas
+  content: 'Navegue até o assunto de interesse, clicando no separador apropriado, para exibir a amostra específica de dados. Dentro da tabela, os círculos representam o tamanho dos dados nominais. Portanto, quanto maior o número em uma célula específica, maior será o círculo adjacente.'
+opened:
+  title: Aberto
+  content: 'Total de incidentes abertos por Colaboradores (ou seja, abertos internamente ) e não por Clientes.'
+assigned:
+  title: Atribuído
+  content: 'O sistema controla cada evento no qual um incidente é automaticamente ou manualmente atribuído a um determinado Departamento ou Agente. Atribuições automáticas dependerão de configurações estabelecidas para <span class="doc-desc-title"> Tópicos de Ajuda</span> e <span class="doc-desc-title"> Filtros de email</span> no Painel de Admin.'
+overdue:
+  title: Em atraso
+  content: 'Total de incidentes que ultrapassaram o período do Plano SLA a que estão associados.'
+closed:
+  title: Fechado
+  content: 'Total de incidentes fechados.'
+reopened:
+  title: Reaberto
+  content: 'Esta é a quantidade de incidentes que foram reabertos por um colaborador ou por um utilizador quando este respondeu enquanto o incidente estava no estado fechado.'
+service_time:
+  title: Tempo de Serviço
+  content: '<span class="doc-desc-title">Tempo de Serviço</span> é o tempo de duração do incidente, inicia quando um novo incidente é criado e termina quando o incidente é fechado. A coluna <span class="doc-desc-title">Tempo do Serviço</span> aqui mede o tempo médio de serviço por incidente, em horas, dentro do intervalo de datas especificado.'
+response_time:
+  title: Tempo de Resposta
+  content: '<span class="doc-desc-title">Tempo de Resposta</span> é um período de tempo que se inicia com a correspondência de qualquer Cliente e termina quando um Agente da equipa de suporte dá uma resposta. Esta medida de tempo não é exclusiva ao inicio da abertura do incidente de assistência pelo Cliente. Refere-se a cada ato de discurso proveniente de um Cliente.'

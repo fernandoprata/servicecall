@@ -1,0 +1,27 @@
+---
+notes: Enviado ao utilizador quando um dos colaboradores cria um novo incidente atribuido ao utilizador. Este procedimento acontece normalmente quando existe uma chamada telefónica por parte do utilizador.
+subject: '%{ticket.subject} [#%{ticket.number}]'
+body: |2
+  <h3><strong>Caro(a) %{recipient.name.first},</strong></h3>
+  A nossa equipa de apoio a clientes criou um incidente, <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> em seu nome, com o seguinte sumário e detalhes:
+  <br>
+  <br>
+  Tópico: <strong>%{ticket.topic.name}</strong>
+  <br>
+  Assunto: <strong>%{ticket.subject}</strong>
+  <br>
+  <br>
+  %{message}
+  <br>
+  <br>
+  Caso necessário, um colaborador entrará em contacto consigo logo que possível. Pode também <a href="%{recipient.ticket_link}">ver o progresso deste incidente online</a>.
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  A equipa do(a) %{company.name},<br>
+  %{signature}</div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Se pretender fornecer comentários ou informação adicional relativo a este assunto,
+   por favor responda a este email ou <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >entre na sua conta</span></a> para um ficheiro completo dos seus incidentes.</em></div>

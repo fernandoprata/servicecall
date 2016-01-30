@@ -1,0 +1,22 @@
+---
+custom_lists:
+  title: Listas personalizadas
+  content: 'As suas <b>listas personalizadas</b> permitirão criar caixas de dropdown com opções predefinidas que um cliente pode selecionar nos seus <b>Formulários Personalizados</b>. Se quiser utilizar esta <b>lista personalizada</b> como um <b>alvo</b> num <b> Filtro de Ticket</b>, certifique-se que adiciona esta lista ao seu formulário <b>Detalhes do Incidente</b>.'
+name:
+  title: Nome
+  content: ""
+plural_name:
+  title: Nome plural
+  content: ""
+sort_order:
+  title: Sequência de ordenação
+  content: ""
+list_s_initial_items:
+  title: Itens iniciais da lista
+  content: ""
+value:
+  title: Valor
+  content: ""
+extra:
+  title: Extra
+  content: 'Abreviaturas e afins. Se usar códigos internos para os itens nesta lista, esses códigos e abreviaturas podem ser inseridos nesta coluna. Se a lista personalizada é processada como um <b>TypeAhead</b>, essas abreviaturas podem ser usadas para pesquisar os itens de lista personalizada.'

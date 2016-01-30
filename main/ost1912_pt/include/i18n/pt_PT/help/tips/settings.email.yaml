@@ -1,0 +1,65 @@
+---
+default_email_templates:
+  title: Conjunto de modelos de email por defeito
+  content: 'Esta opção permite seleccionar o <b>Conjunto de modelos de email</b> usado para enviar <b> alertas</b> e <b> respostas automáticas</b> para as várias ações que decorrem durante o tempo útil de um incidente.<br><br> Pode ser atribuído um Modelo de email específico a cada Departamento.'
+  links:
+    - 
+      title: Gerir conjunto de modelos de email
+      href: /scp/templates.php
+default_system_email:
+  title: Email de sistema por defeito
+  content: 'Esta opção permite escolher um endereço de email por defeito que será indicado nos emails enviados. <br><br>Cada <b>Departamento</b> pode definir seu próprio <b> endereço de email</b> que irá substituir o que está definido aqui.'
+  links:
+    - 
+      title: Gerir endereços de email
+      href: /scp/emails.php
+default_alert_email:
+  title: Email de aviso por defeito
+  content: 'Esta opção permite escolher um endereço de email para onde são enviados os <b> Alertas e Avisos</b>.'
+  links:
+    - 
+      title: Gerir endereços de email
+      href: /scp/emails.php
+admins_email_address:
+  title: Endereço de email do administrador
+  content: 'Esta opção permite indicar o email do administrador do sistema, para o envio de <b>erros de sistema</b> e <b>alertas de novos incidentes</b>.'
+  links:
+    - 
+      title: 'Gerir alertas e avisos'
+      href: /scp/settings.php?t=alerts
+email_fetching:
+  title: Recolha de email
+  content: 'Esta opção permite a recolha através de IMAP/POP para as <b>Caixas de correio</span> configuradas e activas.'
+  links:
+    - 
+      title: Gerir caixas de email
+      href: /scp/emails.php
+enable_autocron_fetch:
+  title: Recolha de emails através de  Auto-Cron
+  content: 'Esta opção permite a recolha periódica de email usando um gestor de tarefas interno desencadeado pela atividade dos Colaboradores.<br><br> Tenha em atenção que não serão lidos emails se ninguém estiver ligado ao Painel de Colaboradores. Um agendador de tarefas externo é altamente recomendado para intervalos de busca previsíveis.'
+  links:
+    - 
+      title: Utilizar o agendador de tarefas externo
+      href: http://osticket.com/wiki/POP3/IMAP_Setting_Guide
+strip_quoted_reply:
+  title: Remover Resposta Citada
+  content: 'Se ativo, irá remover a correspondência anterior entre comunicações por email. <br><br>Este recurso está dependente da <b>Tag de separador de Resposta </b> abaixo.'
+reply_separator_tag:
+  title: Tag de separador de Resposta
+  content: 'Este é um token que indica ao utilizador para responder acima da linha. <br><br><strong>Nota:</strong> só é relevante se <span class="doc-desc-title"> Remover Resposta Citada </span> está ativo acima.'
+emailed_tickets_priority:
+  title: Prioridade de pedidos enviados por email
+  content: 'Escolha se quer que a opção de prioridade/importância do email do utilizador (p.e. OutLook) dite a prioridade do novo ticket. <br><br>Esta configuração pode ser substituída por um <span class="doc-desc-title"> Filtro de Ticket</span>.'
+  links:
+    - 
+      title: 'Criar &amp; Gerir Filtros de Incidentes'
+      href: /scp/filters.php
+accept_all_emails:
+  title: Aceitar todos os emails
+  content: 'Aceitar e-mails de utilizadores desconhecidos.<br><br> Se esta opção não estiver ativada, os pedidos serão rejeitados.'
+accept_email_collaborators:
+  title: Aceitar colaboradores de email
+  content: 'Adicione participantes de email incluídos no campo <code><strong>Para</strong></code> e <code><strong>CC</strong></code> como colaboradores do ticket. <br /><br /> <em>Os Colaboradores podem sempre ser adicionados manualmente por Colaboradores ao visualizar um ticket.</em>'
+default_mta:
+  title: MTA predefinido
+  content: '<span class="doc-desc-title"> MTA padrão</span> trata do processo de entrega de email para e-mails enviados sem configuração SMTP.'

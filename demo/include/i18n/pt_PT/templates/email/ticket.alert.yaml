@@ -1,0 +1,58 @@
+---
+notes: Enviado para um membro da equipa quando um novo incidente é criado no sistema. Aplica-se a incidentes criados via email, portal web ou api.
+subject: Alerta de Novo Incidente
+body: |
+  <h2>Hi %{recipient},</h2>
+  Foi criado o incidente #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>From</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Departamento</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Para ver resposta ao incidente, por favor <a
+  href="%{ticket.staff_link}">entre</a> no sistema de Suporte Técnico </div>
+  <em style="font-size: small">O seu Sistema de Suporte Técnico</em>
+  <br>
+  <a href="http://osticket.com/"><img width="126" height="19"
+  style="width: 126px; " alt="Powered By Servicecall.pt"
+  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/>isactive: 1
+  name: Treinadores de Pulgas
+  notes: Funcionários
+  can_create_tickets: 1
+  can_edit_tickets: 1
+  can_delete_tickets: 0
+  can_close_tickets: 1
+  can_assign_tickets: 1
+  can_transfer_tickets: 1
+  can_ban_emails: 0
+  can_manage_premade: 0
+  can_manage_faq: 0
+  can_post_ticket_reply: 1
+  depts:
+    - 1
+    - 2
+    - 3/a>
+  Hide context | Request context
+  -> body

@@ -1,0 +1,4 @@
+---
+notes: Este modelo define o conteúdo exibido após os Clientes efetuarem registo com sucesso ao confirmarem sua conta. Esta página deve informar o utilizador de que o registo está completo e que o cliente pode agora criar um pedido ou aceder aos pedidos existentes.
+name: Conta confirmada!
+body: '<div> <strong>Obrigado por se ter registado.</strong><br /> <br /> Confirmou o seu email e ativou a sua conta com sucesso. Pode agora criar um novo incidente ou gerir os incidentes existentes.<br /> <br /> <em>O seu serviço de suporte</em><br /> %{company.name} </div>'

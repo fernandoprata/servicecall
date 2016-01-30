@@ -1,0 +1,36 @@
+---
+new_ticket:
+  title: Novo incidente
+  content: 'Esta opção permite quw, a cada novo incidente, seja enviada uma resposta automática para o cliente.'
+  links:
+    - title: Novo Modelo de Resposta Automática a um Incidente
+      href: /scp/templates.php?default_for=ticket.autoresp
+new_ticket_by_staff:
+  title: Novo incidente criado pelo colaborador
+  content: 'Esta opção permite que, quando um colaborador cria um incidente em nome do cliente, seja enviado um aviso ao cliente. <em>O colaborador pode alterar esta opção ao criar o incidente.</em>'
+  links:
+    - title: Novo Modelo de Aviso do Incidente
+      href: /scp/templates.php?default_for=ticket.notice
+new_message_for_submitter:
+  title: Confirmação de nova mensagem
+  content: Aviso de confirmação enviado quando uma nova mensagem é acrescentada a um ticket existente.
+  links:
+    - 
+      title: Modelo de confirmação de nova mensagem
+      href: /scp/templates.php?default_for=message.autoresp
+new_message_for_participants:
+  title: Aviso de nova mensagem
+  content: 'Esta opção permite enviar as mensagens recebidas do utilizador que submeteu o incidente para todos os participantes no mesmo.'
+  links:
+    - title: Modelo de aviso de nova atividade
+      href: /scp/templates.php?default_for=ticket.activity.notice
+overlimit_notice:
+  title: Aviso de limite atingido
+  content: 'Esta opção permite o envio de um aviso de que o incidente foi negado por violação de ter sido atingido o <b>máximo de incidentes abertos</b>.'
+  links:
+    - 
+      title: Modelo de aviso de Máximo de Incidentes Abertos
+      href: /scp/templates.php?default_for=ticket.overlimit
+    - 
+      title: 'Definir <em>Máximo de Incidentes Abertos</em>'
+      href: /scp/settings?t=tickets

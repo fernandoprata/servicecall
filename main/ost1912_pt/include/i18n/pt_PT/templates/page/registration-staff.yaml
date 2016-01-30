@@ -1,0 +1,4 @@
+---
+notes: Este modelo define o email inicial (opcional) enviado aos colaboradores quando uma conta é criada em seu nome.
+name: Bem-vindo ao Servicecall.pt
+body: '<h3><strong>Olá %{recipient.name.first},</strong></h3> <div> Criamos uma conta para si no nosso  helpdesk em %{url}.<br /> <br /> Aceda ao link abaixo indicado para confirmar a sua conta e poder aceder aos seus incidentes.<br /> <br /> <a href="%{link}">%{link}</a><br /> <br /> <em style="font-size: small">O seu sistema de Helpdesk<br /> %{company.name}</em> </div>'

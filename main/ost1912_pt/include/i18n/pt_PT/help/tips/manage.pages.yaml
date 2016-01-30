@@ -1,0 +1,11 @@
+---
+site_pages:
+  title: Páginas do site
+  content: As páginas do site funcionam como um mini CMS (Content Management System). Pode definir múltiplas páginas de chegada, offline e agradecimento e configurar as mesmas nas definições de empresa.
+  links:
+    - 
+      title: Gerir definições de empresa
+      href: /scp/settings.php?t=pages
+type:
+  title: Tipo
+  content: 'As páginas <b>offline</b> são exibidas no portal do cliente, se o seu helpdesk estiver desactivado. As <b>páginas de destino</b> são exibidas na página inicial do seu portal de cliente. As <b>páginas de agradecimento</b> são exibidas depois de um utilizador enviar um incidente. As <b>Outras</b> páginas podem ser usadas como um sistema simples de gestão de conteúdos (CMS).'

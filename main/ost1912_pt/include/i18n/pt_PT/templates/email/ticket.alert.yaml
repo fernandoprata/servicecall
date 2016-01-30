@@ -1,0 +1,39 @@
+---
+notes: Enviado para um membro da equipa quando um novo incidente é criado no sistema. Aplica-se a incidentes criados via email, portal web ou api.
+subject: Alerta de Novo Incidente
+body: |
+  <h2>Hi %{recipient},</h2>
+  Foi criado o incidente #%{ticket.number}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+  <td>
+  <strong>De</strong>:
+  </td>
+  <td>
+  %{ticket.name} &lt;%{ticket.email}&gt;
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <strong>Departamento</strong>:
+  </td>
+  <td>
+  %{ticket.dept.name}
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{message}
+  <br>
+  <br>
+  <hr>
+  <div>Para ver resposta ao incidente, por favor <a
+  href="%{ticket.staff_link}">entre</a> no sistema de Suporte Técnico </div>
+  <em style="font-size: small">O seu Sistema de Suporte Técnico</em>
+  <br>
+  <a href="http://servicecall.pt/">
+  

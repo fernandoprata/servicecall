@@ -1,0 +1,17 @@
+---
+notes: Enviado para os utilizadores quando um membro da equipa responde a um incidente. As respostas são apenas geradas por membros da equipa.
+subject: 'Re: %{ticket.subject}'
+body: |
+  <h3><strong>Caro %{recipient.name},</strong></h3>
+  %{response}
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127);">
+  A equipa do/da %{company.name},<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;"
+  ><em>Esperamos que esta resposta tenha respondido adequadamente às suas questões. Em caso negativo,
+não envie outro email. Em vez disso, responda a este email ou 
+  <a href="%{recipient.ticket_link}" style="color: rgb(84, 141, 212);" >entre na sua conta</a> para ter acesso ao histórico completo de todos os seus incidentes e respectivas respostas.</em></div>

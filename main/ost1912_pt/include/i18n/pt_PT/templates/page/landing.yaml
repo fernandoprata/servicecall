@@ -1,0 +1,7 @@
+---
+notes: 'A página de entrada "Landing Page" refere-se ao conteúdo da vista inicial do Portal de Cliente. O modelo modifica o conteúdo visto acima dos dois endereços <strong>Abrir novo pedido de suporte</strong> e <strong>Verificar estado de pedido de suporte</strong>.'
+name: Página Inicial
+body: |
+  <h1>Bem-vindo ao Helpdesk</h1>
+  <p>
+  De modo a agilizar as solicitações de suporte e atendê-lo(a) com mais rapidez, utilizamos um sistema de incidentes. A cada incidente é atribuído um número de incidente único que pode usar para verificar o progresso e as respostas on-line. Para sua referência,  fornecemos arquivos completos e histórico de todos os seus incidentes. Para criar um incidente é necessário um endereço de email válido. </p>

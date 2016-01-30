@@ -1,0 +1,4 @@
+---
+notes: 'Esta é a mensagem inicial mostrada na página de autenticação dos colaboradores. O primeiro campo refere-se ao texto formatado a vermelho que aparece no topo. A última caixa de texto é para o destaque que deve servir como "disclaimer".'
+name: A autenticação é obrigatória
+body: ""

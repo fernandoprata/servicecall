@@ -1,0 +1,22 @@
+---
+add_new_agent:
+  title: Adicionar novo colaborador
+  content: ""
+agents:
+  title: Colaboradores
+  content: ""
+name:
+  title: Nome
+  content: ""
+username:
+  title: Código de utilizador
+  content: ""
+status:
+  title: Estado
+  content: ""
+created:
+  title: Criado
+  content: ""
+last_login:
+  title: Último início de sessão
+  content: ""

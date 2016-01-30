@@ -1,0 +1,18 @@
+---
+knowledge_base_settings:
+  title: Definições da base de dados de conhecimento
+  content: ""
+knowledge_base_status:
+  title: Estado da base de dados de conhecimento
+  content: 'Ative esta configuração para permitir aos utilizadores o acesso aos seus artigos da base de conhecimento público.<br><br> Categorias de base de conhecimento e FAQs podem ser feitos internos (visíveis somente por Colaboradores).'
+  links:
+    - 
+      title: Gerir a base de dados de conhecimento
+      href: /scp/kb.php
+canned_responses:
+  title: Respostas pré-configuradas
+  content: 'Ative esta configuração para permitir que colaboradores usem <span class="doc-desc-title"> Respostas Prontas</span> ao responder aos tickets.'
+  links:
+    - 
+      title: Gerir respostas pré-configuradas
+      href: /scp/canned.php

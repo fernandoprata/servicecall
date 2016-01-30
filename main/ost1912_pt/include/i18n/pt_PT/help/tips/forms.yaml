@@ -1,0 +1,29 @@
+---
+form_title:
+  title: Título do formulário
+  content: Este texto é mostrado numa caixa de texto por cima dos campos
+form_instructions:
+  title: Instruções do Formulário
+  content: Pode adicionar instruções extra que ajudarão a orientar o utilizador no contexto dos campos do formulário e possivelmente a destacar dados necessários.
+field_sort:
+  title: Posição da exibição do campo
+  content: Clique na dupla seta e arraste a linha do campo para o ordenar dentro do formulário. A preferência de ordenação não terá efeito até o formulário ser guardado.
+field_label:
+  title: Etiqueta do campo
+  content: 'Esta etiqueta é mostrada como o nome para este campo. Normalmente, um campo de resposta curta seria processado como este: <br><strong>Etiqueta:</strong>&nbsp; <input type="text">'
+field_type:
+  title: Tipo de conteúdo do campo
+  content: Isto é usado para definir o tipo de conteúdo do campo que o utilizador irá introduzir. Pode selecionar respostas curtas e longas, número de telefone, data e hora, caixa de selecção (checkbox) ou uma lista personalizada.
+  links:
+    - 
+      title: Gerir listas personalizadas
+      href: /scp/lists.php
+field_visibility:
+  title: Visibilidade dos Campos
+  content: 'Escolha a opção de visibilidade e se este campo deve ser obrigatório. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Configuração</th> <th>Resultado</th></tr> <tr><td>Opcional</td> <td>Colaboradores e Utilizadores Finais podem ver o campo, mas não são obrigados a responder.</td></tr> <tr><td>Obrigatório</td> <td>Colaboradores e Utilizadores Finais podem ver o campo, e ambos são obrigados a responder.</td></tr> <tr><td>Obrigatório para Utiizadores Finais</td> <td>Colaboradores e Utilizadores Finais podem ver o campo, mas só os Utilizadores Finais são obrigados a responder.</td></tr> <tr><td>Obrigatório para Colaboradores</td> <td>Colaboradores e Utilizadores Finais podem ver o campo, mas só os Colaboradores são obrigados a responder.</td></tr> <tr><td>Interno, Opcional</td> <td>Só os Colaboradores pode ver o campo, mas não é necessária nenhuma resposta.</td></tr> <tr><td>Interno, Obrigatório</td> <td>Só os Colaboradores podem ver o campo, e é obrigatório uma resposta.</td></tr> <tr><td>Só para Utilizadores Finais</td> <td>Só Utilizadores Finais podem ver o campo, e uma resposta é obrigatória.</td></tr> </tbody></table>'
+field_variable:
+  title: Automação de campos
+  content: 'Os dados do campo estarão disponíveis para modelos de página e email através do nome usado nesta coluna. Por exemplo, os campos do formulário de incidentes estão disponíveis através de <code>%{ticket.variable}</code>, onde <strong>variable</strong> é o nome usado nesta coluna.<br><br><em>Informações sobre a empresa estão disponíveis via <code>%{</code> <code>company.variable}</code> e informações de utilizador estão disponíveis via <code>%{ticket.user.variable}</code></em>'
+field_delete:
+  title: Remover este campo
+  content: 'Marque o(s) campo(s) a remover e guarde o formulário.<br><br><em>Excluir um campo não remove os dados inseridos anteriormente nos formulários preenchidos. Por exemplo, se um incidente enviado anteriormente tem dados para um campo, a exclusão do mesmo deste formulário não removerá esses dados.</em>'

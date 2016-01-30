@@ -1,0 +1,58 @@
+---
+help_topic_information:
+  title: Informações do Tópico de Ajuda
+  content: 'Os <b>tópicos de ajuda</b> determinam quais as informações que são recolhidas dos utilizadores e como os incidentes são encaminhados ou atribuídos.'
+topic:
+  title: Nome do tópico de ajuda
+  content: Escreva um nome para o tópico de ajuda, que seja único no sistema.
+status:
+  title: Estado do tópico de ajuda
+  content: 'Esta opção permite <b>activar</b> ou <b>desactivar</b> o tópico de ajuda.'
+type:
+  title: Tipo do tópico de ajuda
+  content: 'Se um <b>tópico de ajuda</b> estiver marcado como <b>privado</b>, só estará disponível para os colaboradores quando estes abrem um incidente através do Painel de Colaboradores.'
+parent_topic:
+  title: Tópico de ajuda pai
+  content: 'Seleccione o tópico pai ao qual pertencerá este <b>tópico de ajuda</b>. O tópico pai aparecerá primeiro na listagem com este <btópico de ajuda</b> a ser listado por baixo.'
+custom_form:
+  title: Formulário personalizado
+  content: 'Os <b>formulários personalizados</b> permitem recolher informação mais detalhada que será relevantea para este <b>tópico de ajuda</b>.'
+  links:
+    - title: Gerir formulários personalizados
+      href: /scp/forms.php
+priority:
+  title: Prioridade
+  content: 'Seleccione a <b>prioridade</b> atribuída aos novos incidentes relacionados com este <b>tópico de ajuda</b>. <br><br>Os filtros de incidentes podem alterar a prioridade atribuída ao incidente.'
+department:
+  title: Departamento
+  content: Seleccione o <b>departamento</b> para o qual serão encaminhados os novos incidentes deste tópico de ajuda.
+  links:
+    - title: Gerir departamentos
+      href: /scp/departments.php
+sla_plan:
+  title: Plano de SLA
+  content: 'Seleccione o plano de SLA associado a este <b>tópico de ajuda</b>. <br><br>Esta selecção irá substituir qualquer plano de SLA já seleccionado para o departamento.'
+  links:
+    - title: Gerir planos de SLA
+      href: /scp/slas.php
+thank_you_page:
+  title: Página de agradecimento
+  content: 'Seleccione a <b>página de agradecimento</b> para a qual um utilizador é redirecionado após abrir um incidente sob este <b>tópico de ajuda</b>.'
+  links:
+    - title: Gerir páginas de agradecimento
+      href: /scp/pages.php
+auto_assign_to:
+  title: Atribuição automática de novos incidentes
+  content: 'Opcionalmente, pode seleccionar um <b>colaborador</b> ou <b>equipa</b> para atribuir automaticamente os incidentes abertos com este <b>tópico de ajuda</b> <br><br>Os filtros de incidentes podem substituir a atribuição.'
+  links:
+    - title: Gerir colaboradores e equipas
+      href: /scp/staff.php
+ticket_auto_response:
+  title: Resposta automática ao incidente
+  content: 'Esta opção permite desactivar as respostas automáticas para novos incidentes para este <b>tópico de ajuda</b>. <br><br>Esta opção substitui a configuração do <b>departamento</b>, bem como as <b>configurações de resposta automática globais</b>.'
+  links:
+    - title: Configuração da resposta automática
+      href: /scp/settings.php?t=autoresp
+custom_numbers:
+  title: Número de incidente personalizado
+  content: 'Seleccione <b>personalizar</b> para substituir o formato de numeração dos incidentes criados neste tópico de ajuda. Veja as dicas de ajuda na página de <b>Configurações / Incidentes</b> para obter mais detalhes sobre as configurações.'

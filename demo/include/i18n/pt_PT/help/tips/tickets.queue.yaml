@@ -1,0 +1,40 @@
+---
+search_field:
+  title: Campo pesquisa
+  content: ""
+advanced:
+  title: Avançado
+  content: 'Afine os seus parâmetros para uma busca avançada e logo que obtenha o resultado, pode exportar os resultados através da opção Exportar que está situada no fundo da lista de incidentes.'
+open_tickets_table:
+  title: Tabela de pedidos em aberto
+  content: Todos os pedidos em aberto e a necessitar de atenção
+ticket:
+  title: Pedido
+  content: ""
+date:
+  title: Data
+  content: ""
+subject:
+  title: Assunto
+  content: ""
+from:
+  title: De
+  content: ""
+priority:
+  title: Prioridade
+  content: ""
+assigned_to:
+  title: Atribuído a
+  content: ""
+export:
+  title: Exportar
+  content: "Esta opção permite exportar os registos listados, para um ficheiro CSV, que pode ser aberto por qualquer folha de cálculo, como o Excel, o Apple Pages ou o OpenOffice."
+advanced_search_dialog:
+  title: Pesquisa avançada
+  content: ""
+adv_keyword:
+  title: Pesquisar por palavra-chave
+  content: Encontrar correspondências baseadas nos assuntos e corpos dos pedidos, assim como no conteúdo textual dos campos personalizados associados aos utilizadores e pedidos.
+adv_date_range:
+  title: Pesquisar por intervalo de datas
+  content: Definição aqui
