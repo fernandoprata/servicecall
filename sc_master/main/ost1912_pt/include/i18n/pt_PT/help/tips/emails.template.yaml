@@ -1,0 +1,13 @@
+---
+email_templates:
+  title: Modelos de email
+  content: 'Os modelos de email são utilizados para enviar alertas e respostas automáticas no seguimento das várias acções que podem ocorrer durante o tempo de execução de um incidente.'
+template_to_clone:
+  title: Modelo a copiar
+  content: 'Escolha um modelo a copiar ou simplesmente comece com os modelos de email por defeito.'
+language:
+  title: Idioma
+  content: 'Selecione o idioma pré-definido desejado para o <b>modelo de email</b>.'
+status:
+  title: Estado
+  content: 'Os modelos <b>activos</b> estão disponíveis para serem associados aos departamentos. Os modelos actualmente em utilização não podem ser <b>desactivados</b>.'

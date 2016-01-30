@@ -1,0 +1,60 @@
+---
+add_new_agent:
+  title: Adicionar novo colaborador
+  content: ""
+agent_staff_information:
+  title: Informações do colaborador
+  content: ""
+username:
+  title: Código de utilizador
+  content: 'Indique um <b>código de utilizador</b> que seja único no Helpdesk.'
+email_address:
+  title: Endereço de email
+  content: 'Introduza o endereço de email do colaborador, onde irá receber os <b>alertas e avisos</b> do Helpdesk.'
+  0: '<br><br>'
+  1: A entrada dos colaboradores no Painel de Colaboradores pode ser feito com o código de utilizador ou o endereço de email.
+welcome_email:
+  title: Email de boas vindas
+  content: Esta opção permite enviar ao novo colaborador um link de acesso à conta onde poderá definir a própria palavra-chave. Se não ativar esta opção, precisa de definir a password e comunicar a mesma ao novo colaborador.
+account_password:
+  title: Palavra-chave da conta
+  content: 'Como <b>administrador</b>, pode alterar as palavras-passe dos colaboradores.'
+forced_password_change:
+  title: Alteração forçada de palavra-passe
+  content: Esta opção permite forçar a alteração de palavra-passe no próximo login do novo colaborador.
+agents_signature:
+  title: Assinatura do colaborador
+  content: Esta opção permite criar uma assinatura para o colaborador que pode ser escolhida ao responder a um incidente.
+account_status:
+  title: Estado da conta
+  content: 'Se o estado do colaborador for <b>Bloqueado</b>, não vão conseguir entrar no Helpdesk.'
+assigned_group:
+  title: Grupo atribuído
+  content: 'O <b>Grupo</b> que escolher para este colaborador, determinará as suas permissões no Helpdesk.'
+  links:
+    - 
+      title: Gerir grupos
+      href: /scp/groups.php
+primary_department:
+  title: Departamento primário
+  content: 'Esta opção permite escolher o <b>departamento</b> a que o colaborador pertence.'
+  links:
+    - 
+      title: Gerir departamentos
+      href: /scp/departments.php
+daylight_saving:
+  title: Horário de Verão
+  content: Esta opção permite que o horário de verão apareça automaticamente para o fuso horário deste colaborador.
+limited_access:
+  title: Acesso limitado
+  content: Esta opção permite que o colaborador apenas tenha acesso a incidentes atribuídos directamente ou pela equipa.
+directory_listing:
+  title: Listagem de directório
+  content: 'Esta opção permite que este colaborador seja listado no <b>Directório de colaboradores</b>.'
+  links:
+    - 
+      title: Visitar o directório de colaboradores
+      href: /scp/directory.php
+vacation_mode:
+  title: Modo de férias
+  content: 'Esta opção permite mudar o estado do colaborador para <b>Modo de férias</b>. Tenha em atenção que, neste estado, o colaborador não receberá quaisquer <b>notificações ou alertas</b>, nem estará disponível para a atribuição de incidentes.'

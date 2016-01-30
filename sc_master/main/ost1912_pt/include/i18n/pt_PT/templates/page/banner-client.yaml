@@ -1,0 +1,4 @@
+---
+notes: Esta é a mensagem que compõe o cabeçalho na página de autenticação do cliente. Pode ser útil informar os seus clientes sobre as suas políticas de autenticação e de registo.
+name: 'Aceder a %{company.name}'
+body: Para o servir melhor, convidamos os nossos clientes a registarem-se.

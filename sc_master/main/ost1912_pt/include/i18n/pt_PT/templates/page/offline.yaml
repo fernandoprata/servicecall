@@ -1,0 +1,4 @@
+---
+notes: A Página Offline aparece no Portal do Cliente quando o Helpdesk está desligado.
+name: Desligado
+body: '<div><h1> <span style="font-size: medium"> Sistema de Helpdesk Offline</span></h1> <p>Obrigado pelo nos tentar contactar.</p> <p>O nosso Helpdesk está desligado de momento, por favor volte mais tarde.</p> </div>'

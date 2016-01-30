@@ -1,0 +1,19 @@
+---
+notes: Enviada a um utilizador quando o mesmo envia uma mensagem nova para um incidente. Isto pode acontecer se o utilizador responder a um email do sistema ou visitar o portal do cliente e enviar uma mensagem nova de lá.
+subject: Confirmação de mensagem
+body: |
+  <h3><strong>Caro(a) %{recipient.name.first},</strong></h3>
+  A sua resposta ao pedido de suporte <a
+  href="%{recipient.ticket_link}">#%{ticket.number}</a> foi registada
+  <br>
+  <br>
+  <div style="color: rgb(127, 127, 127); ">
+  %{company.name} <br>
+  A Equipa de Suporte,<br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; text-align:
+  center"><em>Pode ter acesso ao progresso do seu incidente online<a
+  href="%{recipient.ticket_link}"> aqui</a></em>
+  </div>

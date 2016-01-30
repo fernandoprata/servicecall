@@ -1,0 +1,492 @@
+# Webalizer V2.21-02 Incremental Data - 06/12/2015 12:26:33
+2015 6 12 12 26 33
+19062 18755 66 38 11 35 108066241 18945 106 0
+4 6 189 1 12
+1743 1733 9688143 12 1739 9
+1750 1743 9826895 12 1746 11
+1762 1757 10076478 9 1759 8
+1834 1731 9701079 7 1834 8
+1736 1729 9667896 9 1734 7
+1896 1893 12148697 12 1895 14
+1734 1730 9676559 8 1733 7
+1743 1740 9804098 10 1742 10
+1748 1743 9864160 11 1747 11
+1824 1758 10221845 13 1824 17
+1284 1196 7376706 10 1187 11
+8 2 13685 4 5 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+804 802 4542109 802
+795 792 4429572 795
+795 793 4433073 795
+794 792 4427488 793
+795 793 4424562 794
+794 794 4440450 794
+795 795 4439138 795
+792 792 4423320 792
+797 792 4433740 797
+801 800 4528722 800
+801 799 4484214 799
+799 797 4473521 799
+824 805 4591596 820
+806 799 4515734 805
+920 890 6132825 866
+962 803 4694125 919
+754 753 4525813 753
+753 751 4476908 752
+727 725 4048033 726
+771 767 4749478 771
+804 747 4549140 803
+733 730 4154173 731
+730 730 4156627 730
+716 714 3991880 714
+0
+0
+0
+18755
+0
+0
+0
+0
+0
+0
+0
+0
+20
+0
+63
+0
+0
+4
+3
+0
+6
+211
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css/font-awesome.min.css
+0 4 0 22832 0 0
+/
+0 18456 0 103068193 40 11
+/scp/
+0 4 0 10044 4 2
+/css/rtl.css
+0 4 0 3555 0 0
+/assets/default/css/print.css
+0 4 0 1097 0 0
+/js/redactor.min.js
+0 4 0 90045 0 0
+/css/flags.css
+0 4 0 13538 0 0
+/images/flags.png
+1 1 0 79091 0 0
+/assets/default/images/poweredby.png
+1 1 0 8554 0 0
+/assets/default/images/icons/home.png
+1 1 0 1887 0 0
+/scp/css/typeahead.css
+0 4 0 2066 0 0
+/assets/default/images/logo.png
+1 5 0 34936 0 0
+/js/jquery-ui-1.10.3.custom.min.js
+0 4 0 228863 0 0
+/assets/default/images/icons/new.png
+1 1 0 1839 0 0
+/scp/js/bootstrap-typeahead.js
+0 4 0 8643 0 0
+/css/ui-lightness/jquery-ui-1.10.3.custom.min.css
+0 4 0 19711 0 0
+/robots.txt
+0 2 0 550 0 0
+/css/redactor.css
+0 4 3762244262426717494 36607 0 0
+/assets/default/images/check_status_icon.png
+1 1 7955941005540357221 5277 0 0
+/favicon.ico
+0 8 7107428 61040 0 0
+/js/osticket.js
+0 4 30634784 8694 0 0
+/js/redactor-fonts.js
+0 4 0 6862 0 0
+/phpMyAdmin/scripts/setup.php
+0 110 0 1696708 9 3
+/phpmyadmin/scripts/setup.php
+0 140 0 2166460 10 9
+/css/thread.css
+0 4 0 11138 0 0
+/js/redactor-osticket.js
+0 4 0 13691 0 0
+/assets/default/images/page_bg.png
+1 1 0 1299 0 0
+/images/FhHRx-Spinner.gif
+1 1 0 2864 0 0
+/assets/default/css/theme.css
+0 4 0 18621 0 0
+/js/filedrop.field.js
+0 4 0 25745 0 0
+/ajax.php/i18n/pt_PT/js
+0 6 0 19178 1 0
+/js/jquery.multiselect.min.js
+0 4 0 11354 0 0
+/icons/apache_pb.gif
+1 1 0 256 0 0
+/js/jquery-1.8.3.min.js
+0 4 0 94360 0 0
+/assets/default/images/icons/status.png
+1 1 0 1871 0 0
+/assets/default/images/new_ticket_icon.png
+1 1 0 5378 0 0
+/css/osticket.css
+0 4 0 2351 0 0
+/assets/default/images/nav_bg.png
+1 1 0 2850 0 0
+# End Of Table - urls
+# -sites- (monthly)
+72.251.243.50
+0 43 43 663825 8 1434034076
+/phpmyadmin/scripts/setup.php
+199.19.249.196
+0 6 3 30579 2 1434111992
+-
+178.162.214.34
+0 4 2 14442 1 1433206247
+/
+104.243.24.211
+0 6 2 31942 1 1433940447
+-
+102.201.17.93.rev.sfr.net
+0 1 0 2084 1 1433948487
+-
+151.236.58.222
+0 1 0 2084 1 1433845354
+-
+185.58.80.6
+0 133 47 862054 4 1434111992
+-
+185a49b15c23.greendata.pl
+0 7 0 14588 7 1434025845
+-
+61.160.224.128
+0 1 0 2084 1 1433755202
+-
+176-103-102-60.malnet.ru
+0 3 3 16701 2 1433598922
+/
+94.102.53.195
+0 6 0 12504 0 0
+-
+google-proxy-66-249-81-183.google.com
+0 4 4 15163 3 1434105527
+/scp/
+122.186.50.60.cbj01-home.tm.net.my
+0 1 0 2084 1 1433382183
+-
+ne.elitedns.pro
+0 1 1 5544 1 1433848463
+/
+142.54.182.254
+0 1 1 5607 1 1433199622
+/
+97-91-170-239.dhcp.stls.mo.charter.com
+0 2 0 986 1 1433973143
+/
+89.248.171.139
+0 1 1 5606 1 1433282733
+/
+serverams.getbyte2u.com
+0 2 0 4168 2 1433993195
+-
+h88-150-239-154.host.redstation.co.uk
+0 1 1 268 0 0
+-
+192.187.110.98
+0 6 0 12504 6 1433939943
+-
+iceman.tw
+0 2 2 30859 1 1433933237
+/phpMyAdmin/scripts/setup.php
+123.56.118.97
+0 3 2 31403 1 1434023643
+/phpMyAdmin/scripts/setup.php
+89.248.171.167
+0 1 0 2084 1 1433696524
+-
+162.221.202.106
+0 4 4 62118 1 1433956212
+/phpmyadmin/scripts/setup.php
+li102-70.members.linode.com
+0 1 1 5544 1 1433787362
+/
+u199-48-147-141.appliedops.net
+0 2 0 4168 0 0
+-
+124.118.16.144
+0 3 2 31403 1 1433938732
+/phpMyAdmin/scripts/setup.php
+srv59.hqserver.net
+0 6 2 19506 3 1433362097
+/
+61.160.195.30
+0 1 0 2084 1 1433272623
+-
+21.subnet118-98-104.astinet.telkom.net.id
+0 1 0 2084 0 0
+-
+census9.shodan.io
+0 2 2 5867 1 1433366592
+/
+google-proxy-66-249-81-179.google.com
+0 4 4 25401 1 1433151055
+/scp/
+185.35.62.11
+0 1 1 407 1 1433182597
+/
+researchscan457.eecs.umich.edu
+0 1 1 5585 1 1433844421
+/
+fa.56.2d.static.xlhost.com
+0 101 0 29317 1 1433431066
+-
+probe03.projectblindferret.com
+0 1 1 5585 1 1433162043
+/
+222.186.31.57
+0 1 1 5610 1 1433507097
+/
+ec2-52-8-173-154.us-west-1.compute.amazonaws.com
+0 1 1 5585 1 1433952545
+/
+34-195-162-81-oe-cust.slavnet.cz
+0 1 1 5585 1 1433542855
+/
+104.192.194.190
+0 2 0 986 1 1433477757
+/
+212.73.198.119
+0 1 0 2084 0 0
+-
+61.240.144.64
+0 1 1 5544 1 1433397497
+/
+61.240.144.65
+0 1 1 5544 1 1433744486
+/
+61.240.144.67
+0 1 1 5544 1 1433340420
+/
+169.54.233.121-static.reverse.softlayer.com
+0 1 1 5544 1 1433697611
+/
+119.122.255.34
+0 1 1 11799 1 1433686856
+/phpMyAdmin/scripts/setup.php
+researchscan337.eecs.umich.edu
+0 1 1 5585 1 1433590425
+/
+185a25b151c159.greendata.pl
+0 5 0 10420 5 1434025844
+-
+v31-5.yevps.net
+0 1 0 2084 1 1433702866
+-
+server90.net211.intbildns.org
+0 1 1 5544 1 1433616748
+/
+118-175-99-109.totisp.net
+0 3 2 33143 1 1433358131
+/phpMyAdmin/scripts/setup.php
+researchscan3.eecs.berkeley.edu
+0 1 1 5137 1 1433571842
+/
+125-231-171-104.dynamic.hinet.net
+0 2 2 30859 1 1433627023
+/phpMyAdmin/scripts/setup.php
+hn.kd.ny.adsl
+0 10 10 55850 10 1433979542
+/
+dinamico-137-205.turbobsb.com.br
+0 1 0 2084 1 1433211723
+-
+bzq-82-80-216-6.red.bezeqint.net
+0 1 1 5377 1 1433864291
+/
+197.27.7.206
+0 2 2 30859 1 1433794700
+/phpMyAdmin/scripts/setup.php
+61.160.247.65
+0 55 0 114620 1 1433969286
+-
+jobqueue-listener.jobqueue.netcraft.com-u7f66eb7d817c4d3ba6344d0428abb265u-digitalocean-2gb
+0 1 1 256 0 0
+-
+75.98.36.146
+0 2 0 4168 2 1433932674
+-
+rs000257.fastrootserver.de
+0 188 188 2919546 6 1433623308
+/phpmyadmin/scripts/setup.php
+localhost
+0 18406 18406 102797510 1 1434037502
+/
+180.225.203.220
+0 1 0 2084 0 0
+-
+221.228.231.37
+0 4 0 8336 1 1433148828
+-
+researchscan4.eecs.berkeley.edu
+0 1 1 5137 1 1433571842
+/
+74.91.19.186
+0 1 1 5585 1 1433418451
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+199.19.249.196
+0 2 0 1175 1 1434111992
+-
+185.58.80.6
+0 4 0 2369 1 1434111992
+-
+google-proxy-66-249-81-183.google.com
+0 1 1 2511 1 1434105527
+/scp/
+google-proxy-66-249-81-179.google.com
+0 1 1 7630 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://crawler.servicecall.pt/assets/default/css/theme.css
+0 8
+- (Direct Request)
+0 18815
+http://crawler.servicecall.pt/css/osticket.css
+0 1
+http://64.251.10.62/phpMyAdmin/scripts/setup.php
+0 48
+http://servicecall.pt:8080/
+0 5
+http://64.251.10.62/phpmyadmin/scripts/setup.php
+0 69
+http://crawler.servicecall.pt/
+0 107
+http://demo.servicecall.pt/
+1 1
+http://crawler.servicecall.pt/css/flags.css
+0 1
+http://demo.servicecall.pt/scp
+1 1
+64.251.10.62
+0 6
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible;)
+0 1
+T00WT00W3\xc9d\x8bA0\x8b@\x0c\x8bp\x14\xad\x96\xad\x8bX\x10\x8bS
+0 1
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
+0 8
+Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.9.0.15) Gecko/2009102815 Ubuntu/9.04 (jaunty) Firefox/3.0.15
+0 4
+Mozilla/5.0 (Windows NT 6.1; rv:31.0) Gecko/20100101 Firefox/31.0
+0 1
+Mozilla/5.0 (ISPConfig monitor)
+0 18406
+Internet-wide-scan-to-be-removed-from-this-list-email-info-at-binaryedge.io
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2251.0 Safari/537.36
+0 10
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0 r1090193982.1433158540
+0 1
+Mozilla/5.0
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; MS-RTC LM 8; .NET CLR 3
+0 6
+Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.9.2.8) Gecko/20100722 Ubuntu/10.04 (lucid) Firefox/3.6.8
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.1) Opera 7.01 [en]
+0 234
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:8.0) Gecko/20100101 Firefox/8.0
+0 8
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/5.0)
+0 1
+Mozilla/4.0 (compatible; MSIE 5.5; Windows 98)
+0 1
+Mozilla/4.0(compatible; MSIE 7.0b; Windows NT 6.0)
+0 3
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; .N
+0 55
+Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+0 2
+Mozilla/5.0 (Windows NT 5.1; rv:32.0) Gecko/20100101 Firefox/31.0
+0 18
+Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+0 2
+Morfeus Fucking Scanner
+0 1
+Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US)
+0 1
+masscan/1.0 (https://github.com/robertdavidgraham/masscan)
+0 3
+Mozilla/5.0 Jorgee
+0 101
+libwww-perl/6.13
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+0 132
+curl/7.15.5 (x86_64-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5
+0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.2)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

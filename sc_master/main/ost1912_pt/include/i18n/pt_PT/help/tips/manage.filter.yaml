@@ -1,0 +1,70 @@
+---
+execution_order:
+  title: Ordem de Execução
+  content: 'Introduza o número que controla a prioridade do filtro. Quanto menor o número, maior a prioridade que este filtro terá em ser executado sobre outro filtro que possa ter a maior ordem de execução. <br><br>Se deseja que este filtro seja o último filtro aplicado numa correspondência, active <b>Parar processamento ao encontrar</b>.'
+target_channel:
+  title: Canal
+  content: 'Seleccione o <b>canal</b> de destino para o seu <b>filtro de incidente</b>. O <b>canal</b> é a origem através da qual o incidente chegou ao sistema. <br><br>Por exemplo, se escolher <b>formulário da web</b>, significa que deseja aplicar o <b>filtro de incidente</b> para os incidentes que foram originados num formulário do Portal Web de Cliente.'
+rules_matching_criteria:
+  title: Critérios de Correspondência das Regras
+  content: 'Escolha quão estritas quer que as correspondências do seu <b>filtro de incidente</b> sejam. Se quiser que o <b>filtro de incidente</span> coincida com qualquer uma das regras e depois pare, escolha <b>Corresponder a uma qualquer</b>. Se quiser que <em><strong>todas as regras</strong></em> do <b>filtro de incidente</b> sejam correspondidas, escolha <b>Corresponder a todas</b>.'
+reject_ticket:
+  title: Rejeitar Incidente
+  content: Esta opção permite interromper o processamento e todas as outras escolhas abaixo serão ignoradas na correspondência.
+reply_to_email:
+  title: Email de Resposta
+  content: 'Esta opção permite a utilização do campo <b> Reply To</b> do email do utilizador. Este campo só é relevante se o <b>canal</b> indicado em cima incluir <b> email</b>.'
+ticket_auto_response:
+  title: Desactivar a Resposta Automática a Incidentes
+  content: '<em>Nota: Esta opção ir-se-á sobrepôr à definição para um <b>departamento</b>ou para a <b>definição de resposta automática</b>.</em>'
+canned_response:
+  title: Resposta Automática Pré-definida
+  content: 'Escolha uma <b> Resposta Predifinida</b> para ser enviada por email ao utilizador numa correspondência a um <b>filtro de incidente</b>.  O modelo <b>resposta automática a novo incidente</b> usado depende de qual o <b>modelo definido</b> atribuído como padrão, ou para o <b>departamento</b>do incidente de correspondência.'
+  links:
+    - 
+      title: Gerir respostas pré-definidas
+      href: /scp/canned.php
+    - 
+      title: Gerir conjuntos de modelos
+      href: /scp/templates.php
+    - 
+      title: Criar Modelos de Resposta Automática ao Incidente
+      href: '/scp/templates.php?id=2&a=manage'
+department:
+  title: Departamento
+  content: 'Escolha qual o <b>Departamento</b> a ser atribuído no aquando de uma correspondência do <b>Filtro de Incidentes</b>.'
+  links:
+    - 
+      title: Gerir Departamentos
+      href: /scp/departments.php
+priority:
+  title: Prioridade
+  content: 'Escolha o nível de <b> Prioridade</b> que quer ver aplicado às correspondências do <b> Filtro de Incidentes</b>. <br /> <br /> <em>Nota: isto irá substituir as configurações de <b> Departamento</b> ou o <b>Tópico de Ajuda</b>.</em>'
+sla_plan:
+  title: Plano de SLA
+  content: 'Escolha o <b>Plano de SLA</b> a ser aplicado às correspondências do <b> Filtro de Ticket</b>.'
+  links:
+    - 
+      title: Gerir planos de SLA
+      href: /scp/slas.php
+auto_assign:
+  title: Auto-atribuir
+  content: 'Escolha um colaborador ou uma equipa a quem atribuir as correspondências do <b>Filtro de Ticket</b>.'
+  links:
+    - 
+      title: Gerir colaboradores
+      href: /scp/staff.php
+    - 
+      title: Gerir equipas
+      href: /scp/teams.php
+help_topic:
+  title: Tópico de Ajuda
+  content: 'Seleccione o <b>plano de SLA</b> a ser aplicado às correspondências do <b>filtro de incidente</b>.'
+  links:
+    - 
+      title: Gerir tópicos da ajuda
+      href: /scp/helptopics.php
+admin_notes:
+  title: Notas do Admin
+  content: |-
+    Estas notas estão visíveis somente para o tipo de conta ' <b>Admin'.</b>

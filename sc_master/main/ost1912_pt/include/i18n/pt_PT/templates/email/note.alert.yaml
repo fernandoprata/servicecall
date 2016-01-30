@@ -1,0 +1,41 @@
+---
+notes: Enviada aos colaboradores quando uma nova nota interna é anexada a um incidente. Notas internas só podem ser adicionadas por membros da equipa.
+subject: Alerta de nova nota interna
+body: |2
+  <h3><strong>Olá %{recipient},</strong></h3>
+  Uma nota interna foi adicionada a um incidente <a
+  href="%{ticket.staff_link}">#%{ticket.number}</a>
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+          <strong>De</strong>:
+      </td>
+      <td>
+          %{note.poster}
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <strong>Título</strong>:
+      </td>
+      <td>
+          %{note.title}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{note.message}
+  <br>
+  <br>
+  <hr>
+  Para ver/responder ao incidente, por favor <a
+  href="%{ticket.staff_link}">faça o seu login</a> no centro de suporte
+  <br>
+  <br>
+  <em style="font-size: small; ">O seu centro de suporte</em>
+  <br>
+  

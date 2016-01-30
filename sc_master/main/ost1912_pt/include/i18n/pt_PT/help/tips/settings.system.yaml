@@ -1,0 +1,36 @@
+---
+helpdesk_status:
+  title: Estado do Helpdesk
+  content: 'Se o estado do Helpdesk passar a <span class="doc-desc-opt">Desligado</span>, o portal do cliente será desactivado. No entanto, esta opção não afecta o funcionamento normal dos colaboradores através do Painel de Colaboradores.'
+helpdesk_url:
+  title: Endereço do Helpdesk
+  content: Este endereço é o endereço base da sua instalação do Servicecall. É usado na comunicação por email para direccionar os clientes para o Helpdesk.
+helpdesk_name_title:
+  title: Nome do Helpdesk
+  content: Este é o título que aparece no browser/navegador. Caso adicione a página aos favoritos, este será o nome/título da página do site.
+default_department:
+  title: Departamento por defeito
+  content: 'Escolha um <span class="doc-desc-title">departamento</span> por defeito para os incidentes em que não é especificado um departamento.<br/><br/>O incidente pode ser reencaminhado com base num tópico de ajuda, num email ou num filtro.'
+default_page_size:
+  title: Tamanho de página por defeito
+  content: 'Escolha o número de linhas (registos) exibidos por página nas listas de incidentes no Painel de Colaboradores. Cada colaborador também pode personalizar este número para a sua própria conta em <b>As minhas preferências</b>.'
+default_log_level:
+  title: Nível de registo (log) por defeito
+  content: 'Escolha o nível mínimo de questões que será gravado nos <b>logs do sistema</b>. A opção <b>DEBUG</b> representa a menor gravidade, e a opção <b>ERRO</b> representa a maior gravidade. Por exemplo, se pretender ver todos os problemas nos <b>Logs do sistema</b>, escolha a opção <b>DEBUG</b>.'
+purge_logs:
+  title: Limpar Registos (logs)
+  content: 'Defina por quanto tempo pretende manter os <b>Logs de sistema</b>.'
+default_name_formatting:
+  title: Formatação do nome por defeito
+  content: Escolha  a formatação do nome que será utilizado em todo o sistema. Os modelos de email irão usá-la para os nomes, se nenhum outro formato for especificado na variável.
+  links:
+    - 
+      title: Variáveis de modelo de Email suportadas
+      href: 
+date_time_options:
+  title: 'Opções de data &amp; hora'
+  content: 'As configurações a seguir definem a data &amp; hora para Clientes. Pode alterar como estes aparecem seguindo os caracteres de formato de data PHP. As datas abaixo ilustram simplesmente o resultado de seus valores correspondentes.'
+  links:
+    - 
+      title: Consulte a tabela de formatação de data PHP
+      href: http://www.php.net/manual/en/function.date.php

@@ -1,0 +1,13 @@
+---
+signature:
+  title: Linha para assinatura do funcionário
+  content: Crie a assinatura de funcionário para a resposta a incidentes. Esta assinatura irá aparecer como uma opção no final da resposta a um pedido de assistência
+type:
+  title: Tipo de conta
+  content: Administradores têm o privilegio de acesso ao painel de administração. Os funcionários apenas têm acesso à gestão de incidentes e à base de conhecimento (knowledge base)
+group:
+  title: Grupo atribuído
+  content: A pertença a um grupo define o papel do funcionário no sistema. Aceda à página de gestão de grupos para definir qual o acesso que este funcionário tem ao sistema de suporte
+notes:
+  title: Notas internas
+  content: Coloque notas internas relativas a funcionários; estas só são visiveis a funcionários em que o tipo de conta é de Administrador

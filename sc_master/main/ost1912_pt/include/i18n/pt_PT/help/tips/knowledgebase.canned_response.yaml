@@ -1,0 +1,11 @@
+---
+canned_response:
+  title: Respostas pré-definidas
+  content: 'Esta página permite criar uma <b> Resposta pré-definida</b> que pode ser incluída numa resposta ao incidente. De facto, pode incluir tantas <b> Respostas pré-definidas</b> quantas quiser, numa resposta ao incidente. <br>Esta pode também ser incluída na configuração da <b>Resposta automática</b> ao incidente quando da utilização de um <b>Filtro de Incidentes</b>.'
+  links:
+    - 
+      title: Configurar Filtros de Incidentes
+      href: /scp/filters.php
+canned_attachments:
+  title: Anexos pré-definidos
+  content: 'Anexe um ficheiro que gostaria de ver incluído automaticamente na resposta a um incidente que utilize esta <b> Resposta pré-definida</b>.'

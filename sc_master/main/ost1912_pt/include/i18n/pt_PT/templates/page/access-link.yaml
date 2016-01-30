@@ -1,0 +1,7 @@
+---
+notes: Este modelo define a notificação dos Utilizadores que um link de acesso foi enviado para o seu endereço email. O número do incidente e o endereço de email são adicionados ao link de acesso.
+name: 'Incidente: [#%{ticket.number}] Endereço de acesso'
+body: '<h3><strong>Olá %{recipient.name.first},</strong></h3>
+ <div> Foi solicitado um link de acesso para o incidente #%{ticket.number} em seu nome, para a equipa de suporte em %{url}.<br /> <br /> 
+ No endereço indicado em baixo pode acompanhar o estado do incidente #%{ticket.number}.<br /> <br /> <a href="%{recipient.ticket_link}">%{recipient.ticket_link}</a><br /> <br /> Caso  <strong>não tenha criado este incidente</strong>, elimine e ignore esta mensagem. Na criação de um novo incidente, alguém por engano pode ter introduzido o seu endereço de email.<br /> <br /> --<br /> 
+ %{company.name} </div>'

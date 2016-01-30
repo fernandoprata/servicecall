@@ -1,0 +1,63 @@
+---
+number_format:
+  title: Formato do número de pedido
+  content: 'Esta definição é usada para gerar números de tickets. Use cardinais (`#`) onde deverão ser colocados números. Qualquer outro texto em formato numérico será preservado. <span class="doc-desc-title">Tópicos de ajuda</span> pode defenir formatos numéricos personalizados.<br/><br/> Por exemplo, para números de seis digitos, use <code>######</code>.'
+sequence_id:
+  title: Sequencia do número do pedido
+  content: 'Escolha uma sequeência para criar novos números de tickets. O sistema tem uma sequência incremental e aleatória por defeito. Pode criar quantas sequências desejar. Use várias sequências no <span class="doc-desc-title">formato numérico dos tickets</span>configuração para tópicos de ajuda.'
+default_ticket_status:
+  title: Estado predefinido para novos pedidos
+  content: Escolha um estado por defeito para novos tickets. Podem ser definidos para cada tópico de ajuda, se desejável. Podem também ser reescritos por um filtro de tickets.
+  links:
+    - 
+      title: Gerir estado do pedido
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA por defeito
+  content: Para gerir quanto tempo um pedido fica em aberto, antes de passar a pedido atrasado, escolha o nível predefinido do plano SLA.
+  links:
+    - 
+      title: Criar mais planos SLA
+      href: /scp/slas.php
+default_priority:
+  title: Prioridade padrão
+  content: 'Escolha uma<span class="doc-desc-title"> prioridade</span> padrão para tickets não atribuídos uma prioridade automaticamente. <br/> <br/> Prioridade pode ser atribuído através do tópico da ajuda, departamento roteado ou configurações de Ticket.'
+maximum_open_tickets:
+  title: Máximo de pedidos em aberto
+  content: 'Introduza o <em>número</em> máximo de pedidos que um utilizador pode ter <strong>em aberto</strong>. <br><br>Introduza<span class="doc-desc-opt"> 0</span> se pretende desativar esta limitação.'
+agent_collision_avoidance:
+  title: Evitar colisão de colaboradores
+  content: 'Insira o  tempo máximo que um colaborador terá para manter um bloqueio em um bilhete sem qualquer atividade. Digite <span class="doc-desc-opt"> 0</span> para desativar o recurso de bloqueio de <br><br>.'
+email_ticket_priority:
+  title: Prioridade do pedido por email
+  content: Usar a prioridade do email atribuída pelo serviço de email do endereço
+show_related_tickets:
+  title: Mostrar pedidos relacionados
+  content: 'Mostrar todos os Tikets relacionados no login do usuário - caso contrário o acesso é restrito a um modo de exibição de Tiket por login'
+human_verification:
+  title: Verificação humana
+  content: 'Ative o CAPTCHA para verificar, no portal de cliente, se um pedido é resultado de atividade humana.<br><br> Requer GDLib library'
+claim_tickets:
+  title: Tickets de Reinvidição na Resposta
+  content: 'Habilite auto-atribuição de Tikets não atribuídos para o colaborador de resposta. <br><br>Reabertura de Tikets serão sempre atribuídos para o último colaborador dele.'
+assigned_tickets:
+  title: Pedidos atribuídos
+  content: 'Ative esta funcionalidade para excluir os pedidos atribuídos da <span class="doc-desc-title">Fila de pedidos em aberto</span>.'
+answered_tickets:
+  title: Pedidos respondidos
+  content: 'Habilite esse recurso mostrar Tikets respondidos na <span class="doc-desc-title"> Fila de respostas</span>. Caso contrário, ele será incluído na <span class="doc-desc-title"> Fila de Entrada</span>.'
+staff_identity_masking:
+  title: Ocultação da identidade do Colaborador
+  content: Se activado, o nome do colaborador é ocultado durante qualquer comunicação com o cliente.
+enable_html_ticket_thread:
+  title: Ativar incidentes em HTML
+  content: Se activado, permite a utilização de RTF (rich text formatting) entre clientes e colaboradores.
+ticket_attachment_settings:
+  title: Anexos ao ticket
+  content: 'Configurar opções de ficheiros anexos ao campo de <span class="doc-desc-title">detalhes do problema</span>. Estas opções são utilizadas para todos os novos tickets e novas mensagens, independentemente do canal de origem (portal web, email, api, etc.).'
+max_file_size:
+  title: Tamanho máximo do ficheiro
+  content: Escolha um tamanho máximo de ficheiros anexos carregados por colaboradores. Isto inclui anexos embebidos, artigos da base de conhecimentos, e anexos em resposta a tickets.
+ticket_response_files:
+  title: Ficheiros da resposta ao pedido
+  content: Se activado, qualquer anexo colocado por um colaborador na resposta a um pedido, será incluído no email enviado ao utilizador.

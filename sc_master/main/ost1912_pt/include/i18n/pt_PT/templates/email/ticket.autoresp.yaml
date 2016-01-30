@@ -1,0 +1,22 @@
+---
+notes: Enviado ao utilizador assim que um novo incidente é criado.
+subject: 'Novo Incidente Aberto [#%{ticket.number}]'
+body: |
+  <h3><strong>Caro(a) %{recipient.name.first},</strong></h3>
+  <p>
+  Foi criado o incidente #%{ticket.number}.
+  Um membro da equipa irá responder assim que possível. <br><br>Para ver o progresso do incidente online, clique
+  <a href="%{recipient.ticket_link}">aqui</a>.
+   </p>
+  <br>
+  <div style="color: rgb(127, 127, 127)">
+  A equipa do/a %{company.name},
+  <br>
+  %{signature}
+  </div>
+  <hr>
+  <div style="color: rgb(127, 127, 127); font-size: small; "><em>Caso
+  deseje acrescentar comentários e informações adicionais sobre o assunto,
+  responda a esta mensagem ou <a href="%{recipient.ticket_link}"><span
+  style="color: rgb(84, 141, 212);" >aceda à sua conta </span></a> para
+  ver todos os seus incidentes.</em></div>

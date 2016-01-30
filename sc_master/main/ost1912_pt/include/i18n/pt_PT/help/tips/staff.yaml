@@ -1,0 +1,11 @@
+---
+signature:
+  title: Linha para assinatura do colaborador
+  content: Crie a assinatura de colaborador para a resposta a incidentes. Esta assinatura irá aparecer como uma opção no final da resposta a um incidente.
+  title: Tipo de conta
+  content: Os Administradores têm o privilégio de acesso ao painel de administração. Os colaboradores apenas têm acesso à gestão de incidentes e à base de conhecimento (knowledge base)
+group:
+  title: Grupo atribuído
+  content: A pertença a um grupo define o papel do colaborador no sistema. Aceda à página de gestão de grupos para definir qual o acesso que este colaborador tem ao helpdesk
+  title: Notas internas
+  content: Escreva notas internas relativas a colaboradores; estas só são visiveis a utilizadores em que o tipo de conta é de Administrador

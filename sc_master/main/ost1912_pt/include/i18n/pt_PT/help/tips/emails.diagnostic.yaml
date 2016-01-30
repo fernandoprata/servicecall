@@ -1,0 +1,19 @@
+---
+test_outgoing_email:
+  title: Testar envio de email
+  content: 'O envio do email depende das configurações do servidor (php.ini) e/ou configuração de SMTP.'
+  links:
+    - title: Seleccione um email para configurar as definições de SMTP (saída)
+      href: /scp/emails.php
+from:
+  title: De
+  content: ""
+to:
+  title: Para
+  content: ""
+subject:
+  title: Assunto
+  content: ""
+message:
+  title: Mensagem
+  content: ""

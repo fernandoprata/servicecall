@@ -1,0 +1,63 @@
+---
+number_format:
+  title: Formato do número de pedido
+  content: 'Esta definição é usada para gerar o número dos incidentes. Utilize cardinais (`#`) onde deverão ser colocados dígitos. Qualquer outro texto será preservado.<br/><br/> Por exemplo, para números de seis digitos, utilize <code>######</code>.'
+sequence_id:
+  title: Sequência do número do incidente
+  content: 'Escolha uma sequência para criar novos números de incidentes. O sistema tem uma sequência incremental e aleatória por defeito. Pode criar quantas sequências desejar. Na configuração de tópicos de ajuda, utilize várias sequências no <b>formato numérico dos incidentes</b>.'
+default_ticket_status:
+  title: Estado por defeito para novos incidentes
+  content: 'Escolha um estado por defeito para os novos incidentes. Podem ser definidos para cada tópico de ajuda e podem também ser reescritos por um filtro de incidentes.'
+  links:
+    - 
+      title: Gerir os estados dos incidentes
+      href: /scp/lists.php?type=ticket-status
+default_sla:
+  title: SLA por defeito
+  content: 'Escolha o plano SLA por defeito a aplicar a um incidente, de modo a definir o tempo que o incidente poderá ficar aberto. Findo esse período, o incidente será sinalizado como atrasado.'
+  links:
+    - 
+      title: Gerir planos SLA
+      href: /scp/slas.php
+default_priority:
+  title: Prioridade por defeito
+  content: 'Escolha uma<span class="doc-desc-title"> prioridade</span> por defeito para incidentes aos quais não foi atribuída uma prioridade específica. <br/> <br/> A prioridade também pode ser atribuída através dum tópico de ajuda, da transferência entre departamentos ou através do filtro de incidentes.'
+maximum_open_tickets:
+  title: Máximo de incidentes abertos
+  content: 'Introduza o <em>número</em> máximo de incidentes que um utilizador pode ter <strong>em aberto</strong>. <br><br>Introduza o valor<b> 0</b> se pretende desactivar esta limitação.'
+agent_collision_avoidance:
+  title: Evitar colisão de colaboradores
+  content: 'Introduza o  tempo máximo que um colaborador terá para manter o bloqueio de um incidente sem qualquer actividade. Introduza o valor <b> 0</b> para desactivar esta limitação<br><br>.'
+email_ticket_priority:
+  title: Prioridade do pedido por email
+  content: Usar a prioridade do email atribuída pelo serviço de email do endereço
+show_related_tickets:
+  title: Mostrar incidentes relacionados
+  content: 'Mostrar todos os incidentes relacionados no login do colaborador - caso contrário o acesso é restrito a um modo de exibição de incidente por login'
+human_verification:
+  title: Verificação humana
+  content: 'Active o CAPTCHA para verificar, no portal de cliente, se um incidente é resultado de actividade humana.<br><br>'
+claim_tickets:
+  title: Assumir o incidente ao responder
+  content: 'Esta opção permite atribuir automaticamente um incidente não atribuído, a um colaborador que responda ao incidente. No entanto, uma reabertura de um incidente será sempre atribuído ao colaborador ao qual foi inicialmente atribuído'
+assigned_tickets:
+  title: Incidentes atribuídos
+  content: 'Esta opção permite excluir os incidentes atribuídos da <b>Fila de incidentes abertos</b>.'
+answered_tickets:
+  title: Incidentes respondidos
+  content: 'Esta opção permite mostrar os incidentes respondidos na <b> Fila de respostas</b>. Caso contrário, ele será incluído na <b>Fila de incidentes abertos</b>.'
+staff_identity_masking:
+  title: Ocultação da identidade do colaborador
+  content: Esta opção permite que o nome do colaborador seja ocultado durante qualquer comunicação com o cliente.
+enable_html_ticket_thread:
+  title: Ativar incidentes em formato HTML
+  content: Se activado, permite a utilização de RTF (rich text formatting) entre clientes e colaboradores.
+ticket_attachment_settings:
+  title: Anexos ao incidente
+  content: 'Esta opção permite configurar os ficheiros anexos ao campo de <b>detalhes do problema</b>. Estas opções são utilizadas para todos os novos incidentes e novas mensagens, independentemente do canal de origem (portal web, email, api, etc.).'
+max_file_size:
+  title: Tamanho máximo do ficheiro
+  content: Esta opção permite escolher o tamanho máximo para os anexos carregados por colaboradores. Isto inclui anexos embebidos, artigos da biblioteca, e anexos em resposta a incidentes.
+ticket_response_files:
+  title: Ficheiros da resposta ao incidente
+  content: Se activado, qualquer anexo colocado por um colaborador na resposta a um incidente, será incluído no email enviado ao utilizador.

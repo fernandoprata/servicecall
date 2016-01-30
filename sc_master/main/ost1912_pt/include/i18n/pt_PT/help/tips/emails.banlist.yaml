@@ -1,0 +1,4 @@
+---
+ban_list:
+  title: Endereços de email excluídos
+  content: 'Os emails recebidos que constem na lista de excluídos são automaticamente rejeitados.'

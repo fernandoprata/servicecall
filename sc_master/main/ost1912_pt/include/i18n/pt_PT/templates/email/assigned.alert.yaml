@@ -1,0 +1,37 @@
+---
+notes: 'Enviada aos colaboradores quando um incidente lhes é atribuído. Os incidentes podem ser atribuídos automaticamente pelo sistema ou manualmente por um outro membro da equipa.  Utilize %{assigner} para identificar quem fez a atribuição.'
+subject: Foi-lhe atribuído um incidente
+body: |2
+  <h3><strong>Olá %{assignee.name.first},</strong></h3>
+  O incidente <a href="%{ticket.staff_link}">#%{ticket.number}</a> foi-lhe atribuido por %{assigner.name.short}
+  <br>
+  <br>
+  <table>
+  <tbody>
+  <tr>
+      <td>
+           <strong>De</strong>:
+      </td>
+      <td>
+           %{ticket.name} &lt;%{ticket.email}&gt;
+      </td>
+  </tr>
+  <tr>
+      <td>
+           <strong>Assunto</strong>:
+      </td>
+      <td>
+           %{ticket.subject}
+      </td>
+  </tr>
+  </tbody>
+  </table>
+  <br>
+  %{comments}
+  <br>
+  <br>
+  <hr>
+  <div>Para visualizar/responder a este incidente, efectue o <a
+  href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
+  >login</span></a> no sistema.</div>
+  

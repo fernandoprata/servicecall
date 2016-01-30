@@ -1,0 +1,59 @@
+---
+page_title:
+  title: Alertas e avisos
+  content: Alertas e avisos são notificações de email automático enviadas para Colaboradores quando vários eventos de tickets são acionados.
+ticket_alert:
+  title: Alerta de novo incidente
+  content: '<p>Alerta enviado para os colaboradores quando é criado um novo incidente.</p><p class="info-banner"> <i class="icon-info-sign"></i> Este alerta não é enviado se o incidente for atribuído automaticamente através de um Filtro de Incidentes ou Tópico de Ajuda.</p>'
+  links:
+    - 
+      title: Modelo prè-definido de alerta de novo incidente
+      href: /scp/templates.php?default_for=ticket.alert
+message_alert:
+  title: Aviso de nova mensagem
+  content: Aviso enviado para os colaboradores quando uma nova mensagem do utilizador é acrescentada um incidente existente.
+  links:
+    - 
+      title: Modelo prè-defindo de alerta de nova mensagem
+      href: /scp/templates.php?default_for=message.alert
+internal_note_alert:
+  title: Alerta de nova nota interna
+  content: 'Alerta enviado para Colaboradores quando uma nova <span class="doc-desc-title"> Nota interna</span> é anexada a um ticket.'
+  links:
+    - 
+      title: Modelo predefinido para atividade no pedido
+      href: /scp/templates.php?default_for=note.alert
+assignment_alert:
+  title: Aviso de atribuíção de incidente
+  content: Alerta enviado para colaboradores na atribuição de um pedido.
+  links:
+    - 
+      title: Modelo por omissão de Alerta de Atribuição de Ticket
+      href: /scp/templates.php?default_for=assigned.alert
+transfer_alert:
+  title: Alerta de transferência
+  content: Alerta enviado para os colaboradores na transferência de pedidos entre departamentos.
+  links:
+    - 
+      title: Modelo por defeito de alerta de transferencia de pedido
+      href: /scp/templates.php?default_for=transfer.alert
+overdue_alert:
+  title: Alerta de incidentes em atraso
+  content: Alerta enviado para Colaboradores quando um ticket passa do prazo com base no SLA ou data de vencimento.
+  links:
+    - 
+      title: Modelo de alerta por defeito para incidentes antigos
+      href: /scp/templates.php?default_for=ticket.overdue
+    - 
+      title: Gerir SLAs
+      href: /scp/slas.php
+system_alerts:
+  title: Alertas de sistema
+  content: 'Eventos do sistema significativos que são enviados para o Administrador (%{config.admin_email}). Dependendo do <span class="doc-desc-title"> Nível de Log</span> configurado, os eventos também são disponibilizados nos <span class="doc-desc-title"> Logs do sistema</span>'
+  links:
+    - 
+      title: Ver logs de sistema
+      href: /scp/logs.php
+    - 
+      title: Alterar email de Admin
+      href: /scp/settings.php?t=emails
